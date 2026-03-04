@@ -1,0 +1,163 @@
+/* Page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  font-family: "Times New Roman", serif;
+}
+
+/* Main Area */
+.card {
+  width: 600px;
+  max-width: 90%;
+  margin: 30px auto;
+  background-color: white;
+
+  border: 10px solid goldenrod;
+  border-radius: 50px;
+
+  padding: 20px 25px;
+  box-sizing: border-box;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-size: 32px;
+  color: black;
+}
+
+/* Search Area */
+.searchArea {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.labelText {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.searchControls {
+  display: inline-block;
+}
+
+/* Inputs + Buttons */
+.textInput {
+  width: 260px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+
+.button {
+  padding: 6px 12px;
+  font-size: 16px;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+/* Message */
+.message {
+  margin-top: 8px;
+  min-height: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+/* Pokemon Display */
+.pokemonDisplay {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pokemonImage {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  display: inline-block;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.audioPlayer {
+  width: 80%;
+  margin: 10px auto 5px auto;
+  display: block;
+}
+
+/* Moves */
+.movesGrid {
+  width: 90%;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.moveSelect {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+/* Center Area */
+.center {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Team */
+.teamArea {
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.teamTitle {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 22px;
+}
+
+.teamList {
+  border: 2px solid black;
+  background-color: white;
+}
+
+/* Team Row */
+.teamRow {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  border-top: 1px solid black;
+  padding: 10px;
+  align-items: center;
+}
+
+.teamRow:first-child {
+  border-top: none;
+}
+
+/* Team Sprite */
+.teamSprite {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Team Moves */
+.teamMoves {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
